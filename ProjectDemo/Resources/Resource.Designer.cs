@@ -41,11 +41,48 @@ namespace ProjectDemo
 			}
 		}
 		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f040005
+			public const int btnLogin = 2130968581;
+			
+			// aapt resource value: 0x7f040006
+			public const int btnSignUp = 2130968582;
+			
+			// aapt resource value: 0x7f040001
+			public const int lblEmail = 2130968577;
+			
+			// aapt resource value: 0x7f040003
+			public const int lblPassword = 2130968579;
+			
+			// aapt resource value: 0x7f040002
+			public const int txtEmail = 2130968578;
+			
+			// aapt resource value: 0x7f040000
+			public const int txtHeader = 2130968576;
+			
+			// aapt resource value: 0x7f040004
+			public const int txtPassword = 2130968580;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
+			{
+			}
+		}
+		
 		public partial class Layout
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Main = 2130837504;
+			public const int Login = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int Main = 2130837505;
 			
 			static Layout()
 			{
