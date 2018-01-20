@@ -44,8 +44,20 @@ namespace ProjectDemo
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f04000b
+			public const int btnCalendar = 2130968587;
+			
+			// aapt resource value: 0x7f04000c
+			public const int btnClubs = 2130968588;
+			
+			// aapt resource value: 0x7f04000d
+			public const int btnContact = 2130968589;
+			
 			// aapt resource value: 0x7f040006
 			public const int btnLogin = 2130968582;
+			
+			// aapt resource value: 0x7f04000a
+			public const int btnNewsFeed = 2130968586;
 			
 			// aapt resource value: 0x7f040007
 			public const int btnSignUp = 2130968583;
@@ -60,13 +72,16 @@ namespace ProjectDemo
 			public const int loginView = 2130968576;
 			
 			// aapt resource value: 0x7f040008
-			public const int textView1 = 2130968584;
+			public const int menuView = 2130968584;
 			
 			// aapt resource value: 0x7f040003
 			public const int txtEmail = 2130968579;
 			
 			// aapt resource value: 0x7f040001
 			public const int txtHeader = 2130968577;
+			
+			// aapt resource value: 0x7f040009
+			public const int txtMenu = 2130968585;
 			
 			// aapt resource value: 0x7f040005
 			public const int txtPassword = 2130968581;
@@ -85,10 +100,22 @@ namespace ProjectDemo
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Login = 2130837504;
+			public const int Calendar = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Main = 2130837505;
+			public const int Clubs = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Contact = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int Login = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int Main = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int NewsFeed = 2130837509;
 			
 			static Layout()
 			{
